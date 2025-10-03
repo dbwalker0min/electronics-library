@@ -1,0 +1,196 @@
+(footprint "LD2410C"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.431 13.265 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c9ef7fa9-3232-403e-8938-1981759cd3d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LD2410C"
+		(at 4.529 16.035 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9ee1ea69-3282-41d3-9240-7b7567f37917")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590908674925801472"
+		(at -5.971 14.535 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73a539bc-bace-49c5-8a17-6351b199370d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Human Presence Motion Sensor"
+		(at -5.971 14.535 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76405632-ce4a-4695-a0d0-3a9355243351")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.971 -1.465)
+		(end 16.029 14.535)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f8b3cfb9-ad4c-4dfa-9d94-7dd1c654345c")
+	)
+	(fp_text user "GND"
+		(at 7.666359 1.25156 90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "02996a2e-9608-433d-b1b0-5472f39fbcfb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left mirror)
+		)
+	)
+	(fp_text user "OUT"
+		(at 5.08 1.27 90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "37368190-03f5-4af3-9c66-8f9f15bc8cad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left mirror)
+		)
+	)
+	(fp_text user "RDR_RX"
+		(at 2.54 1.27 90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "38698241-4c64-4e87-b419-e495a8ec0f35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left mirror)
+		)
+	)
+	(fp_text user "VCC"
+		(at 10.16 1.27 90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "c190fc11-3bde-4f70-b871-2187441ee3dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left mirror)
+		)
+	)
+	(fp_text user "RDR_TX"
+		(at 0 1.27 90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "fae3200c-785e-42a3-b8c5-f8bc75ff5aee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.529 18.035 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7e364554-9959-496d-ae8d-3ce1f1b2a163")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.4 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1785714286)
+		(uuid "f1d6e598-192c-4841-a70b-30d7316ffd86")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.4 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7fa8f5b0-bbd2-4cbf-8fb5-29761faacb95")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0)
+		(size 1.4 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28c2618a-c316-46d4-b795-a0c282598d78")
+	)
+	(pad "4" thru_hole oval
+		(at 7.62 0)
+		(size 1.4 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c2dd45ea-03ac-4149-9251-044a2974f18d")
+	)
+	(pad "5" thru_hole oval
+		(at 10.16 0)
+		(size 1.4 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0f758f59-de07-4349-a02e-a208ddc6bc72")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/HLK-LD2410C/3d/HLK-LD2410C.step"
+		(offset
+			(xyz -157.5 -42.7 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1,1 +1,5485 @@
-(kicad_symbol_lib (version 20241209) (generator "kicad-symlib-util") (generator_version "1.0.0") (symbol "~Template" (pin_numbers (hide yes)) (pin_names (offset 0.254) (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes) (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "~Template" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "Template. Do not use." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "0603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (symbol "~Template_0_1" (polyline (pts (xy -1.524 0.508) (xy 1.524 0.508)) (stroke (width 0.3048) (type default)) (fill (type none))) (arc (start -1.524 -0.762) (mid 0 -0.3734) (end 1.524 -0.762) (stroke (width 0.3048) (type default)) (fill (type none)))) (symbol "~Template_1_1" (pin passive line (at 0 2.54 270) (length 2.032) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0 -2.54 90) (length 2.032) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))) (embedded_fonts no)) (symbol "1nF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "1nF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B102KB8NNNC_C1588.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "1nF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1588" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "150pF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "150pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B151K500NT_C1594.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "150pF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1594" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "1.5nF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "1.5nF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B152K500NT_C1595.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "1.5nF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor extended" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1595" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "15nF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "15nF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B153K500NT_C1596.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "15nF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor extended" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1596" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "200pF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "200pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B201K500NT_C1600.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "200pF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor extended" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1600" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "220pF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "220pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B221KB8NNNC_C1603.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "220pF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1603" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "2.2nF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "2.2nF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B222K500NT_C1604.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "2.2nF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1604" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "2.7nF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "2.7nF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B272K500NT_C1609.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "2.7nF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor extended" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1609" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "3.3nF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "3.3nF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B332KB8NNNC_C1613.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "3.3nF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1613" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "330nF_X7R_25V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "330nF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B334K250NT_C1615.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "330nF 25V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "25V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor extended" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1615" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "470pF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "470pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B471K500NT_C1620.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "470pF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1620" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "47nF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "47nF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B473KB8NNNC_C1622.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "47nF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1622" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "470nF_X7R_25V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "470nF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "470nF 25V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "25V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1623" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "680pF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "680pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B681K500NT_C1630.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "680pF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor extended" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1630" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "6.8nF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "6.8nF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B682K500NT_C1631.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "6.8nF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1631" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "10pF_C0G_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "10pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C100JB8NNNC_C1634.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "10pF 50V C0G ±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1634" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "15pF_C0G_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "15pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C150JB8NNNC_C1644.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "15pF 50V C0G ±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1644" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "18pF_C0G_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "18pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C180JB8NNNC_C1647.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "18pF 50V C0G ±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1647" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "20pF_C0G_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "20pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C200JB8NNNC_C1648.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "20pF 50V C0G ±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1648" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "22pF_C0G_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "22pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C220JB8NNNC_C1653.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "22pF 50V C0G ±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1653" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "30pF_C0G_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "30pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG300J500NT_C1658.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "30pF 50V C0G ±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1658" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "33pF_C0G_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "33pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C330JB8NNNC_C1663.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "33pF 50V C0G ±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1663" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "330pF_C0G_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "330pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C331JB8NNNC_C1664.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "330pF 50V C0G ±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1664" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "4.7pF_C0G_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "4.7pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG4R7C500NT_C1669.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "4.7pF 50V C0G ±¼pF" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor extended" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1669" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±¼pF" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "47pF_C0G_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "47pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C470JB8NNNC_C1671.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "47pF 50V C0G ±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1671" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "6.8pF_C0G_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "6.8pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG6R8C500NT_C1679.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "6.8pF 50V C0G ±¼pF" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor extended" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1679" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±¼pF" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "8.2pF_C0G_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "8.2pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG8R2C500NT_C1685.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "8.2pF 50V C0G ±¼pF" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor extended" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1685" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±¼pF" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "100nF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "100nF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "100nF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C14663" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "100pF_C0G_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "100pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C101JB8NNNC_C14858.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "100pF 50V C0G ±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C14858" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "1uF_X5R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "1uF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "1uF 50V X5R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X5R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C15849" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "4.7uF_X5R_16V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "4.7uF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "4.7uF 16V X5R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X5R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "16V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C19666" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "10uF_X5R_10V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "10uF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "10uF 10V X5R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X5R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "10V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C19702" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "33nF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "33nF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B333KB8NNNC_C21117.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "33nF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C21117" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "220nF_X7R_25V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "220nF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B224KA8NNNC_C21120.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "220nF 25V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "25V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C21120" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "22nF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "22nF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B223KB8NNNC_C21122.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "22nF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C21122" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "2.2uF_X5R_16V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "2.2uF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A225KO8NNNC_C23630.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "2.2uF 16V X5R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X5R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "16V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C23630" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "68pF_C0G_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "68pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C680JB8NNNC_C28262.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "68pF 50V C0G ±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor extended" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C28262" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "68nF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "68nF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B683KB8NNNC_C31658.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "68nF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor extended" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C31658" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "6pF_C0G_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "6pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG6R0C500NT_C37474.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "6pF 50V C0G ±¼pF" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor extended" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C37474" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±¼pF" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "12pF_C0G_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "12pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C120JB8NNNC_C38523.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "12pF 50V C0G ±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C38523" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "56pF_C0G_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "56pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C560JB8NNNC_C39148.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "56pF 50V C0G ±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor extended" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C39148" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "3pF_C0G_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "3pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG3R0C500NT_C46219.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "3pF 50V C0G ±¼pF" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "C0G" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor extended" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C46219" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±¼pF" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "4.7nF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "4.7nF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B472K500NT_C53987.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "4.7nF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C53987" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "10nF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "10nF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "10nF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C57112" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "22uF_X5R_6.3V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "22uF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A226MQ8NRNC_C59461.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "22uF 6.3V X5R ±20%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X5R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "6.3V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C59461" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±20%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "27pF_NP0_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "27pF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0603JRNPO9BN270_C107045.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "27pF 50V NP0 ±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "NP0" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor extended" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C107045" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±5%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (symbol "8.2nF_X7R_50V" (extends "~Template") (property "Reference" "C" (at 2.032 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "8.2nF" (at 2.032 0 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B822K500NT_C1322360.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "8.2nF 50V X7R ±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tempco" "X7R" (at 2.032 -3.556 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage" "50V" (at 2.032 -1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Package" "603" (at 2.032 -5.334 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "ki_keywords" "cap capacitor basic" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "JLCPCB" "C1322360" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Tolerance" "±10%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))))
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "~Template"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~Template"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Template. Do not use."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "0603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "~Template_0_1"
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.524 -0.762)
+				(mid 0 -0.3734)
+				(end 1.524 -0.762)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "~Template_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "1.5nF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5nF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B152K500NT_C1595.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5nF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1595"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor extended"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "100nF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C14663"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "100pF_C0G_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C101JB8NNNC_C14858.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100pF 50V C0G ±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C14858"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "10nF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10nF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C57112"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "10pF_C0G_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C100JB8NNNC_C1634.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10pF 50V C0G ±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1634"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "10uF_X5R_10V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 10V X5R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X5R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C19702"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "12pF_C0G_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C120JB8NNNC_C38523.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12pF 50V C0G ±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C38523"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "150pF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B151K500NT_C1594.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150pF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1594"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "15nF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15nF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B153K500NT_C1596.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "15nF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1596"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor extended"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "15pF_C0G_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C150JB8NNNC_C1644.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "15pF 50V C0G ±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1644"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "18pF_C0G_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C180JB8NNNC_C1647.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "18pF 50V C0G ±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1647"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "1nF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B102KB8NNNC_C1588.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1nF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1588"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "1uF_X5R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1uF 50V X5R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X5R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C15849"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "2.2nF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2nF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B222K500NT_C1604.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2nF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1604"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "2.2uF_X5R_16V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A225KO8NNNC_C23630.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2uF 16V X5R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X5R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23630"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "2.7nF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.7nF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B272K500NT_C1609.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.7nF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1609"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor extended"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "200pF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B201K500NT_C1600.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200pF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1600"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor extended"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "20pF_C0G_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C200JB8NNNC_C1648.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20pF 50V C0G ±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1648"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "220nF_X7R_25V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B224KA8NNNC_C21120.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220nF 25V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C21120"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "220pF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B221KB8NNNC_C1603.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220pF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1603"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "22nF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22nF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B223KB8NNNC_C21122.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22nF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C21122"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "22pF_C0G_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C220JB8NNNC_C1653.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22pF 50V C0G ±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1653"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "22uF_X5R_6.3V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A226MQ8NRNC_C59461.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22uF 6.3V X5R ±20%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X5R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "6.3V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C59461"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "27pF_NP0_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0603JRNPO9BN270_C107045.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "27pF 50V NP0 ±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "NP0"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C107045"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor extended"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "3.3nF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3nF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B332KB8NNNC_C1613.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3nF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1613"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "30pF_C0G_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG300J500NT_C1658.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30pF 50V C0G ±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1658"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "330nF_X7R_25V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330nF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B334K250NT_C1615.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "330nF 25V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1615"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor extended"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "330pF_C0G_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C331JB8NNNC_C1664.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "330pF 50V C0G ±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1664"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "33nF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33nF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B333KB8NNNC_C21117.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "33nF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C21117"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "33pF_C0G_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C330JB8NNNC_C1663.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "33pF 50V C0G ±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1663"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "3pF_C0G_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG3R0C500NT_C46219.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3pF 50V C0G ±¼pF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C46219"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±¼pF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor extended"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "4.7nF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7nF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B472K500NT_C53987.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7nF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C53987"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "4.7pF_C0G_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG4R7C500NT_C1669.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7pF 50V C0G ±¼pF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1669"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±¼pF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor extended"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "4.7uF_X5R_16V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7uF 16V X5R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X5R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C19666"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "470nF_X7R_25V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "470nF 25V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1623"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "470pF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B471K500NT_C1620.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "470pF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1620"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "47nF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47nF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B473KB8NNNC_C1622.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "47nF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1622"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "47pF_C0G_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C470JB8NNNC_C1671.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "47pF 50V C0G ±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1671"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "56pF_C0G_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "56pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C560JB8NNNC_C39148.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "56pF 50V C0G ±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C39148"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor extended"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "6.8nF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.8nF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B682K500NT_C1631.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "6.8nF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1631"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "6.8pF_C0G_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.8pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG6R8C500NT_C1679.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "6.8pF 50V C0G ±¼pF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1679"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±¼pF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor extended"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "680pF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "680pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B681K500NT_C1630.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "680pF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1630"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor extended"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "68nF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68nF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B683KB8NNNC_C31658.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "68nF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C31658"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor extended"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "68pF_C0G_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C680JB8NNNC_C28262.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "68pF 50V C0G ±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C28262"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor extended"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "6pF_C0G_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG6R0C500NT_C37474.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "6pF 50V C0G ±¼pF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C37474"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±¼pF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor extended"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "8.2nF_X7R_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8.2nF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B822K500NT_C1322360.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8.2nF 50V X7R ±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "X7R"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1322360"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor basic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "8.2pF_C0G_50V"
+		(extends "~Template")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8.2pF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG8R2C500NT_C1685.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8.2pF 50V C0G ±¼pF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tempco" "C0G"
+			(at 2.032 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 2.032 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "603"
+			(at 2.032 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1685"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±¼pF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor extended"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+)
