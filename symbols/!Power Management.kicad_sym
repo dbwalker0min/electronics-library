@@ -52,13 +52,22 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2895288"
+		(property "JLCPCB PN" "C2895288"
 			(at 5.08 -19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

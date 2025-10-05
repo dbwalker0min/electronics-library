@@ -63,6 +63,28 @@
 		(layer "F.SilkS")
 		(uuid "f8b3cfb9-ad4c-4dfa-9d94-7dd1c654345c")
 	)
+	(fp_rect
+		(start -1.075 -1.25)
+		(end 11.235 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "77d6a77f-2ed9-4839-8471-122ea77fb4ae")
+	)
+	(fp_rect
+		(start -1.075 -1.25)
+		(end 11.235 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4e233fa9-a760-4d24-8ef9-9213430ae4e5")
+	)
 	(fp_text user "GND"
 		(at 7.666359 1.25156 90)
 		(unlocked yes)
@@ -71,7 +93,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left mirror)
 		)
@@ -84,7 +106,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left mirror)
 		)
@@ -97,7 +119,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left mirror)
 		)
@@ -110,7 +132,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left mirror)
 		)
@@ -123,7 +145,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left mirror)
 		)
@@ -142,7 +164,7 @@
 	)
 	(pad "1" thru_hole roundrect
 		(at 0 0)
-		(size 1.4 2)
+		(size 1.65 2)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -151,7 +173,7 @@
 	)
 	(pad "2" thru_hole oval
 		(at 2.54 0)
-		(size 1.4 2)
+		(size 1.65 2)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -159,7 +181,7 @@
 	)
 	(pad "3" thru_hole oval
 		(at 5.08 0)
-		(size 1.4 2)
+		(size 1.65 2)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -167,7 +189,7 @@
 	)
 	(pad "4" thru_hole oval
 		(at 7.62 0)
-		(size 1.4 2)
+		(size 1.65 2)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -175,7 +197,7 @@
 	)
 	(pad "5" thru_hole oval
 		(at 10.16 0)
-		(size 1.4 2)
+		(size 1.65 2)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)

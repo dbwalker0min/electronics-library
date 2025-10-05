@@ -56,7 +56,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2830246"
+		(property "JLCPCB PN" "C2830246"
 			(at 0 0 0)
 			(effects
 				(font
@@ -74,7 +74,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*polyfuse* *PTC*"
+		(property "ki_fp_filters" "Fuse:Fuse_1206_3216Metric"
 			(at 0 0 0)
 			(effects
 				(font

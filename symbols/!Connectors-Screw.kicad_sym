@@ -44,7 +44,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Screw Term Block, 2 Pos, 2.54 mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -53,7 +53,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C5188442"
+		(property "JLCPCB PN" "C5188442"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71,7 +80,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "TerminalBlock*:*"
+		(property "ki_fp_filters" "!Connectors:*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -252,7 +261,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C5188444"
+		(property "JLCPCB PN" "C5188444"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 0 0 0)
 			(effects
 				(font
@@ -270,7 +288,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "TerminalBlock*:*"
+		(property "ki_fp_filters" "!Connectors:*"
 			(at 0 0 0)
 			(effects
 				(font

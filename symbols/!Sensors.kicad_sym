@@ -50,7 +50,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C19723500"
+		(property "JLCPCB PN" "C19723500"
 			(at -11.43 6.35 0)
 			(effects
 				(font
