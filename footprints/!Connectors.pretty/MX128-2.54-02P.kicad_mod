@@ -143,7 +143,7 @@
 		(uuid "7d18ea94-29e1-4a24-bafe-c02de139af66")
 	)
 	(embedded_fonts no)
-	(model "${MY_3DMODEL_DIR}/1725656.step"
+	(model "${KILIB_DIR}/3dmodels/1725656.step"
 		(offset
 			(xyz 4 3.1 0)
 		)

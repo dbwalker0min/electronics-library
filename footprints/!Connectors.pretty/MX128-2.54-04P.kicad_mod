@@ -158,7 +158,7 @@
 		(uuid "c918a3be-a50a-4841-bfb1-192250319b34")
 	)
 	(embedded_fonts no)
-	(model "${MY_3DMODEL_DIR}/pxc_1725672_06_02_MPT-0-5-4-2-54_3D.stp"
+	(model "${KILIB_DIR}/3dmodels/pxc_1725672_06_02_MPT-0-5-4-2-54_3D.stp"
 		(offset
 			(xyz 9.15 3.1 0)
 		)

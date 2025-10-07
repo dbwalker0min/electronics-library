@@ -29,7 +29,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Changjiang_FXL0630"
+		(property "Footprint" "!Inductors:L_Changjiang_FXL0630"
 			(at 0 0 0)
 			(effects
 				(font

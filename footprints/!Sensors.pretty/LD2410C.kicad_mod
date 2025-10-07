@@ -204,9 +204,9 @@
 		(uuid "0f758f59-de07-4349-a02e-a208ddc6bc72")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/HLK-LD2410C/3d/HLK-LD2410C.step"
+	(model "${KILIB_DIR}/3dmodels/LD2410C mmWave Sensor.step"
 		(offset
-			(xyz -157.5 -42.7 5)
+			(xyz -6 -14.5 2.2)
 		)
 		(scale
 			(xyz 1 1 1)
