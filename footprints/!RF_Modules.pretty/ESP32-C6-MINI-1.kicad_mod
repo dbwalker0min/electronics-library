@@ -837,7 +837,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_3DMODEL_DIR}/ESP32-C3-MINI-1-N4.step"
+	(model "${KILIB_DIR}/3dmodels/ESP32-C3-MINI-1-N4.step"
 		(offset
 			(xyz 0 0 0)
 		)
