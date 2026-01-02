@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 6.985 3.81 0)
+		(at -7.62 -5.08 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "108db303-54d0-4054-9e6d-c1db098b2f04")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "MX128-2.54-04P"
-		(at 2.5 1 0)
+		(at -5.12 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "09d40892-7510-499b-8cbf-3fbfe2a908ee")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 2.5 0 0)
+		(at -5.12 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 2.5 0 0)
+		(at -5.12 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,8 +55,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -1.51 -3.55)
-		(end 9.13 2.7)
+		(start -9.13 -3.55)
+		(end 1.51 2.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -78,8 +78,8 @@
 		(uuid "505eb096-93c5-4ce1-8d68-ea0b732383f8")
 	)
 	(fp_rect
-		(start -1.76 -3.8)
-		(end 9.38 2.95)
+		(start -9.38 -3.8)
+		(end 1.76 2.95)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -89,8 +89,8 @@
 		(uuid "15db1a6b-09d0-4d5f-8e40-08aa11170c3e")
 	)
 	(fp_rect
-		(start -1.51 -3.55)
-		(end 9.13 2.7)
+		(start -9.13 -3.55)
+		(end 1.51 2.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -101,7 +101,8 @@
 	)
 	(fp_poly
 		(pts
-			(xy 3.75 -3.75) (xy 1.25 -6.25) (xy 2.25 -6.25) (xy 2.25 -9.75) (xy 5.25 -9.75) (xy 5.25 -6.25) (xy 6.25 -6.25)
+			(xy -3.87 -3.75) (xy -6.37 -6.25) (xy -5.37 -6.25) (xy -5.37 -9.75) (xy -2.37 -9.75) (xy -2.37 -6.25)
+			(xy -1.37 -6.25)
 		)
 		(stroke
 			(width 0.1)
@@ -112,7 +113,7 @@
 		(uuid "153664f8-70b3-4b15-a1b1-f322c698ec1a")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 10.16 5.715 0)
+		(at 2.54 5.715 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "95cb5070-5c05-45d4-8c81-abf926025815")
@@ -134,7 +135,7 @@
 		(uuid "d0632c32-a13b-421c-ae77-2bdab6520eb6")
 	)
 	(pad "2" thru_hole circle
-		(at 2.54 0)
+		(at -2.54 0)
 		(size 1.95 1.95)
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
@@ -142,7 +143,7 @@
 		(uuid "7d18ea94-29e1-4a24-bafe-c02de139af66")
 	)
 	(pad "3" thru_hole circle
-		(at 5.08 0)
+		(at -5.08 0)
 		(size 1.95 1.95)
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
@@ -150,7 +151,7 @@
 		(uuid "67d65402-1167-4528-adc7-264c3e16339f")
 	)
 	(pad "4" thru_hole circle
-		(at 7.62 0)
+		(at -7.62 0)
 		(size 1.95 1.95)
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
@@ -160,7 +161,7 @@
 	(embedded_fonts no)
 	(model "${KILIB_DIR}/3dmodels/pxc_1725672_06_02_MPT-0-5-4-2-54_3D.stp"
 		(offset
-			(xyz 9.15 3.1 0)
+			(xyz 1.53 3.1 0)
 		)
 		(scale
 			(xyz 1 1 1)

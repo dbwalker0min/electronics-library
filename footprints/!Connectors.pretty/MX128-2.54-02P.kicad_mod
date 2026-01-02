@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 2.5 -0.5 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "108db303-54d0-4054-9e6d-c1db098b2f04")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "MX128-2.54-02P"
-		(at 2.5 1 0)
+		(at -0.04 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "09d40892-7510-499b-8cbf-3fbfe2a908ee")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 2.5 0 0)
+		(at -0.04 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 2.5 0 0)
+		(at -0.04 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,8 +55,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -1.51 -3.55)
-		(end 4.05 2.7)
+		(start -4.05 -3.55)
+		(end 1.51 2.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -67,7 +67,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -0.635 3.175) (xy -1.27 4.445) (xy 0 4.445)
+			(xy 0 3.175) (xy -0.635 4.445) (xy 0.635 4.445)
 		)
 		(stroke
 			(width 0.1)
@@ -79,8 +79,8 @@
 	)
 	(fp_poly
 		(pts
-			(xy 1.21 -3.75) (xy -1.29 -6.25) (xy -0.29 -6.25) (xy -0.29 -9.75) (xy 2.71 -9.75) (xy 2.71 -6.25)
-			(xy 3.71 -6.25)
+			(xy -1.33 -3.75) (xy -3.83 -6.25) (xy -2.83 -6.25) (xy -2.83 -9.75) (xy 0.17 -9.75) (xy 0.17 -6.25)
+			(xy 1.17 -6.25)
 		)
 		(stroke
 			(width 0.1)
@@ -91,8 +91,8 @@
 		(uuid "153664f8-70b3-4b15-a1b1-f322c698ec1a")
 	)
 	(fp_rect
-		(start -1.76 -3.8)
-		(end 4.3 2.95)
+		(start -4.3 -3.8)
+		(end 1.76 2.95)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -102,8 +102,8 @@
 		(uuid "15db1a6b-09d0-4d5f-8e40-08aa11170c3e")
 	)
 	(fp_rect
-		(start -1.51 -3.55)
-		(end 4.05 2.7)
+		(start -4.05 -3.55)
+		(end 1.51 2.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -113,7 +113,7 @@
 		(uuid "8617197f-3b3d-4138-9cc1-31da903ebad1")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.5 2.5 0)
+		(at -0.04 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "95cb5070-5c05-45d4-8c81-abf926025815")
@@ -135,7 +135,7 @@
 		(uuid "d0632c32-a13b-421c-ae77-2bdab6520eb6")
 	)
 	(pad "2" thru_hole circle
-		(at 2.54 0)
+		(at -2.54 0)
 		(size 1.95 1.95)
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
@@ -145,7 +145,7 @@
 	(embedded_fonts no)
 	(model "${KILIB_DIR}/3dmodels/1725656.step"
 		(offset
-			(xyz 4 3.1 0)
+			(xyz 1.46 3.1 0)
 		)
 		(scale
 			(xyz 1 1 1)

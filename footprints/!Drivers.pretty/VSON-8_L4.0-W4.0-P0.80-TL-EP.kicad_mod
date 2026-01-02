@@ -1,0 +1,235 @@
+(footprint "VSON-8_L4.0-W4.0-P0.80-TL-EP"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.2 0)
+		(layer "F.SilkS")
+		(uuid "7adcbe96-2dd8-4bdb-bab8-5e20a545b699")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VSON-8_L4.0-W4.0-P0.80-TL-EP"
+		(at 0 5.2 0)
+		(layer "F.Fab")
+		(uuid "0cbe87ca-a744-444d-b745-764fe7a37847")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46d27a0b-946f-4bd4-8942-ea1ba32f4dba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b0f3059-8b9d-4be7-956f-2c5957f4eea3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.08 -2.08)
+		(end 2.08 -2.08)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5359aa6-d1c4-43a5-b0eb-22025b0f240b")
+	)
+	(fp_line
+		(start -2.08 -1.57)
+		(end -2.08 -2.08)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c22ac03b-991a-4412-a47f-e9c87bf90c4f")
+	)
+	(fp_line
+		(start -2.08 1.57)
+		(end -2.08 2.08)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd1266b9-a7af-44a9-acb5-e0db9d03e744")
+	)
+	(fp_line
+		(start -2.08 2.08)
+		(end 2.08 2.08)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89143660-b658-408c-b4a1-6b86040d9ccf")
+	)
+	(fp_line
+		(start 2.08 -2.08)
+		(end 2.08 -1.57)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da84669c-f3d2-43b7-8768-ba8763fac004")
+	)
+	(fp_line
+		(start 2.08 2.08)
+		(end 2.08 1.57)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3035bf11-e150-4439-b746-8eda71ded640")
+	)
+	(fp_circle
+		(center -2.52 -1.2)
+		(end -2.42 -1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b012ed2a-8da0-4570-b6d0-5a6ac589e6c5")
+	)
+	(fp_circle
+		(center -2.52 -1.2)
+		(end -2.42 -1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "bf7ce8c1-1a68-4f78-889c-168099435177")
+	)
+	(fp_circle
+		(center -2 -2)
+		(end -1.97 -2)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f0a93467-57de-43ee-a220-f2602c552e65")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "142e8480-5493-45d8-a70a-867d9510cefd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.91 -1.2)
+		(size 0.66 0.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "472a35f6-6b50-4d20-89f7-3c10b4f6a6bf")
+	)
+	(pad "2" smd rect
+		(at -1.91 -0.4)
+		(size 0.66 0.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8150298b-cc7a-4208-bc88-27ff08f592e2")
+	)
+	(pad "3" smd rect
+		(at -1.91 0.4)
+		(size 0.66 0.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4631e892-129e-415d-bf1d-633b4952bca4")
+	)
+	(pad "4" smd rect
+		(at -1.91 1.2)
+		(size 0.66 0.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9568fc43-fde5-42c7-bf9a-2f4cef26be39")
+	)
+	(pad "5" smd rect
+		(at 1.91 1.2)
+		(size 0.66 0.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6d7e11fb-31a0-43f4-935f-14e50aea2d20")
+	)
+	(pad "6" smd rect
+		(at 1.91 0.4)
+		(size 0.66 0.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b4046bf4-3504-480f-a17f-d3bad1a226c3")
+	)
+	(pad "7" smd rect
+		(at 1.91 -0.4)
+		(size 0.66 0.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fbca644e-e1ff-459f-be5f-25f4f381bc27")
+	)
+	(pad "8" smd rect
+		(at 1.91 -1.2)
+		(size 0.66 0.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "64ad8182-2da8-4128-9206-285df13f4528")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 2.45 3.38)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fcf11a27-8afd-46ce-a782-f7a608298bde")
+	)
+	(embedded_fonts no)
+	(model "${KILIB_DIR}/3dmodels/VSON-8_L4.0-W4.0-P0.80-TL-EP.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+	(model "${KILIB_DIR}/3dmodels/VSON-8_L4.0-W4.0-P0.80-TL-EP.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

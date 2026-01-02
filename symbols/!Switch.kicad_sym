@@ -30,7 +30,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "!Switches:SW_TS-1088-xx020xx_XUNPU"
 			(at 0 5.08 0)
 			(effects
 				(font
