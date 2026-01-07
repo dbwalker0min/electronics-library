@@ -4027,6 +4027,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "785-1001-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET basic"
 			(at 0 0 0)
 			(effects
