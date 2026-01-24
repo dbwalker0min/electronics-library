@@ -399,7 +399,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Fuse:Fuse_1206_3216Metric"
+		(property "ki_fp_filters" "Fuse:Fuse_*"
 			(at 0 0 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-(footprint "molex_705430002"
+(footprint "molex_0705430001"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "molex_705430002"
-		(at 0 8.89 0)
+	(property "Value" "molex_0705430001"
+		(at 0 6.35 0)
 		(layer "F.Fab")
 		(uuid "64b51eb2-2228-4049-a561-bed8643e8923")
 		(effects
@@ -54,9 +54,9 @@
 	(attr through_hole)
 	(fp_rect
 		(start -4.06 0)
-		(end -2.54 5.08)
+		(end -2.54 2.54)
 		(stroke
-			(width 0.2032)
+			(width 0.15)
 			(type solid)
 		)
 		(fill no)
@@ -65,9 +65,9 @@
 	)
 	(fp_rect
 		(start -2.54 -2.54)
-		(end 2.54 7.63)
+		(end 2.54 5.09)
 		(stroke
-			(width 0.2032)
+			(width 0.15)
 			(type solid)
 		)
 		(fill no)
@@ -76,78 +76,50 @@
 	)
 	(fp_rect
 		(start -1.27 -1.27)
-		(end 1.27 6.35)
+		(end 1.27 3.81)
 		(stroke
-			(width 0.2032)
+			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "B.CrtYd")
-		(uuid "7ade0065-e4db-40fe-bf76-67ace370ea47")
+		(uuid "0a6bbbfe-b58b-47db-b2c8-6f7a1d4da411")
 	)
 	(fp_rect
 		(start -2.79 -2.79)
-		(end 2.79 7.87)
+		(end 2.79 5.33)
 		(stroke
-			(width 0.2032)
+			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "b8c6e8e5-9782-42f0-812b-a198a9fe7d2b")
+		(uuid "15fe001f-893d-422c-b3d9-b08206acbe46")
 	)
-	(fp_line
-		(start -2.54 -1.905)
-		(end -1.905 -2.54)
+	(fp_rect
+		(start -4.06 -0.01)
+		(end -2.54 2.53)
 		(stroke
-			(width 0.2032)
-			(type default)
+			(width 0.1)
+			(type solid)
 		)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "062082d2-71ce-407e-9a1a-e97fcef01db2")
+		(uuid "037afb2b-e752-4afd-9fbb-28b779233e71")
 	)
-	(fp_line
-		(start -2.54 7.62)
-		(end -2.54 -1.905)
+	(fp_rect
+		(start -2.54 -2.55)
+		(end 2.54 5.08)
 		(stroke
-			(width 0.2032)
-			(type default)
+			(width 0.1)
+			(type solid)
 		)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "e7bd3da0-9322-40bb-9529-b683cf038bbf")
-	)
-	(fp_line
-		(start -1.905 -2.54)
-		(end 2.54 -2.54)
-		(stroke
-			(width 0.2032)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "09a5d03f-a3fd-47d9-8e49-79e3c56eb9f4")
-	)
-	(fp_line
-		(start 2.54 -2.54)
-		(end 2.54 7.62)
-		(stroke
-			(width 0.2032)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "98a90d03-26f9-4be3-ad4f-9804b2298b00")
-	)
-	(fp_line
-		(start 2.54 7.62)
-		(end -2.54 7.62)
-		(stroke
-			(width 0.2032)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "5e8e1200-9a12-490c-8f34-2eb46ec500e4")
+		(uuid "b2cccdf5-1086-4b17-9a34-2e351b439ba3")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.54 90)
+		(at 0 1.275 90)
 		(layer "F.Fab")
 		(uuid "9dfffa54-7c72-451f-bef8-bbf7e0edea01")
 		(effects
@@ -173,18 +145,10 @@
 		(remove_unused_layers no)
 		(uuid "6bcb62f2-4c4f-4597-8133-11b349ee97a1")
 	)
-	(pad "3" thru_hole circle
-		(at 0 5.08)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "acefec1d-d6ec-4cda-9afc-05c139bf1f25")
-	)
 	(embedded_fonts no)
-	(model "${KILIB_DIR}/3dmodels/molex_705430002.stp"
+	(model "${KILIB_DIR}/3dmodels/molex_705430001.stp"
 		(offset
-			(xyz 0 -2.54 8)
+			(xyz 0 -1.27 8)
 		)
 		(scale
 			(xyz 1 1 1)

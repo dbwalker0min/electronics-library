@@ -136,4 +136,15 @@
 		(uuid "94878e71-9023-48bc-91f2-8714c30f1496")
 	)
 	(embedded_fonts no)
+	(model "${KILIB_DIR}/3dmodels/WE-LQS_6045_LQS+(rev1).stp"
+		(offset
+			(xyz 0 0 2.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )

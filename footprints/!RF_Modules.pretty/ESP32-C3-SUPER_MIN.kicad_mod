@@ -56,7 +56,7 @@
 		(start -1.38 -1.72)
 		(end 16.62 21.28)
 		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type solid)
 		)
 		(fill no)
@@ -67,7 +67,7 @@
 		(start 2.62 -2.72)
 		(end 12.62 4.68)
 		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type solid)
 		)
 		(fill no)
@@ -78,7 +78,7 @@
 		(start 5.62 19.08)
 		(end 10.62 21.08)
 		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type solid)
 		)
 		(fill no)
@@ -104,7 +104,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
 			)
 			(justify left mirror)
 		)
@@ -117,7 +117,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
 			)
 			(justify left mirror)
 		)
@@ -130,7 +130,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
 			)
 			(justify left mirror)
 		)
@@ -143,7 +143,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
 			)
 			(justify left mirror)
 		)
@@ -156,7 +156,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
 			)
 			(justify right mirror)
 		)
@@ -169,7 +169,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
 			)
 			(justify left mirror)
 		)
@@ -182,7 +182,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
 			)
 			(justify right mirror)
 		)
@@ -195,7 +195,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
 			)
 			(justify right mirror)
 		)
@@ -208,7 +208,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
 			)
 			(justify left mirror)
 		)
@@ -221,7 +221,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
 			)
 			(justify right mirror)
 		)
@@ -234,7 +234,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
 			)
 			(justify right mirror)
 		)
@@ -247,7 +247,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
 			)
 			(justify left mirror)
 		)
@@ -260,7 +260,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
 			)
 			(justify right mirror)
 		)
@@ -273,7 +273,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
 			)
 			(justify left mirror)
 		)
@@ -286,7 +286,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
 			)
 			(justify right mirror)
 		)
@@ -299,7 +299,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
 			)
 			(justify right mirror)
 		)
@@ -311,7 +311,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.2)
 			)
 		)
 	)

@@ -26,7 +26,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "!Connectors:molex_0705430001"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71,6 +71,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
 			(effects
@@ -80,7 +89,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Connector*:*_1x??_*"
+		(property "ki_fp_filters" "!Connectors:molex_0705430001"
 			(at 0 0 0)
 			(effects
 				(font
@@ -231,6 +240,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
 			(effects
@@ -240,7 +258,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Connector*:*_1x??_*"
+		(property "ki_fp_filters" "!Connectors:molex_705430002"
 			(at 0 0 0)
 			(effects
 				(font
