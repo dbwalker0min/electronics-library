@@ -12,6 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
+kicad-lib = "electronics_library:main"
 electronics-library = "electronics_library:main"
 
 [build-system]

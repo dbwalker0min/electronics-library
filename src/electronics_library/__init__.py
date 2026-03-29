@@ -1,2 +1,3 @@
-def main() -> None:
-    print("Hello from electronics-library!")
+from .cli import main
+
+__all__ = ["main"]
