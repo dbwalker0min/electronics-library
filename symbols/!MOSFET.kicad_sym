@@ -3961,6 +3961,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "785-1000-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET basic"
 			(at 0 0 0)
 			(effects

@@ -1,0 +1,159 @@
+(footprint "D36V6x"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "D36V6x Step-Down Voltage Regulators")
+	(property "Reference" "REF**"
+		(at -2.54 -1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a69ca2e9-088a-4b59-98e2-9f6a22569aa7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "D36V6x"
+		(at 5.08 -10.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fcb18387-a514-4c5e-99e5-00d95ad6dbe4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.pololu.com/category/247/d36v6x-step-down-voltage-regulators"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69be2375-d9a3-4bcd-afcb-5e4f865adc2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "D36V6x Step-Down Voltage Regulators"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d91b3682-9c80-4cbf-904a-5d5d682617e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 -15.24)
+		(end 10.16 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1b315c05-6074-47fa-8224-357618c136dc")
+	)
+	(fp_rect
+		(start -0.25 0.25)
+		(end 10.41 -2.79)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "4e03d49f-9f16-4527-9e9d-ad98a3b4c6f2")
+	)
+	(fp_rect
+		(start -0.25 0.25)
+		(end 10.41 -15.49)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e16c714f-fa32-40c4-ab64-74204fc0f752")
+	)
+	(fp_rect
+		(start 0 -15.24)
+		(end 10.16 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "af9f61af-4ca5-401f-a06b-7e1c7ea063a8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.08 -8.89 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "53401e5b-0c04-4f1e-b748-d5b60f6b06df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 6.35 -1.27)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1666666667)
+		(uuid "7b2c6efd-728d-45ef-a6c6-5e46944b4e77")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 -1.27)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b3e007d1-4110-4e0e-8105-9d5ff58410a6")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 -1.27)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "32152c54-2dd9-4256-960a-8203456edb47")
+	)
+	(pad "4" thru_hole circle
+		(at 8.89 -1.27)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dea9d5f8-72a1-4f0d-82fe-529847278ae4")
+	)
+	(embedded_fonts no)
+	(model "${KILIB_DIR}/3dmodels/step-down-voltage-regulator-d24v3fx-d24v6fx-d36v6fx.step"
+		(offset
+			(xyz 0 0 2.54)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
